@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.castapp356047" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.megashares.castapp042016" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>castapp</name>
   <description>
         An Ionic Framework and Cordova project.
@@ -34,6 +34,12 @@
     <splash src="resources/splash.png" density="port-xxhdpi"/>
     <splash src="resources/splash.png" density="port-xxxhdpi"/>
   </platform>
+  <gap:plugin name="cordova-plugin-device" />
+  <gap:plugin name="cordova-plugin-file" />
+  <gap:plugin name="cordova-plugin-file-transfer" />
+  <gap:plugin name="cordova-plugin-console" />
+  <gap:plugin name="cordova-plugin-splashscreen" />
+  <gap:plugin name="cordova-plugin-inappbrowser" />
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
     <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
@@ -62,10 +68,4 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-    <gap:plugin name="cordova-plugin-device" />
-    <gap:plugin name="cordova-plugin-file" />
-    <gap:plugin name="cordova-plugin-file-transfer" />
-    <gap:plugin name="cordova-plugin-console" />
-    <gap:plugin name="cordova-plugin-splashscreen" />
-    <gap:plugin name="cordova-plugin-inappbrowser" /> 
 </widget>
