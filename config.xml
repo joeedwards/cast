@@ -69,4 +69,7 @@
   <gap:plugin name="cordova-plugin-splashscreen"/>
   <gap:plugin name="cordova-plugin-inappbrowser"/>
   <plugin name="cordova-plugin-whitelist" />
+  <plugin name="cordova-plugin-mfilechooser" />
+  <plugin name="cordova-plugin-statusbar" />
+  <plugin name="cordova-plugin-connectsdk" />
 </widget>
