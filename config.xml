@@ -72,7 +72,7 @@
   <plugin name="cordova-plugin-mfilechooser" />
   <plugin name="cordova-plugin-statusbar" />
   <plugin name="ionic-plugin-keyboard" />
-  <gap:plugin name="cordova-plugin-connectsdk" />
+  <plugin name="cordova-plugin-connectsdk" />
   
   <!-- 
   <gap:plugin name="cordova-plugin-connectsdk" />
