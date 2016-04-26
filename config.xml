@@ -74,6 +74,6 @@
     <gap:plugin name="cordova-plugin-splashscreen" />
     <!-- <gap:plugin name="cordova-plugin-statusbar" /> //-->
     <!-- <gap:plugin name="cordova-plugin-connectsdk" /> //-->
-    <gap:plugin name="cordova-plugin-inappbrowser" />
-    <gap:plugin name="ionic-plugin-keyboard" />
+    <gap:plugin name="cordova-plugin-inappbrowser" /> 
+    <!-- <gap:plugin name="ionic-plugin-keyboard" /> //-->
 </widget>
