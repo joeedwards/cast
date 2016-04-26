@@ -129,6 +129,7 @@ angular.module('app.controllers', [])
 				$state.go("folder", { parent: $scope.val.grand });
 			},
 
+/*
 			onCast: function(file){
 				if(file.target_id != 0){
 					API.getFile(file.target_id).then(function(parent){
@@ -163,7 +164,7 @@ angular.module('app.controllers', [])
 				}
 					
 			},
-
+*/
 			filterFolders: function(){
 				return function(folder){
 					if(folder.pfolder_id == $scope.val.parent){
