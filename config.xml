@@ -34,6 +34,7 @@
     <splash src="resources/splash.png" density="port-xxhdpi"/>
     <splash src="resources/splash.png" density="port-xxxhdpi"/>
   </platform>
+  <gap:plugin name="cordova-plugin-mfilechooser"/>
   <gap:plugin name="cordova-plugin-device"/>
   <gap:plugin name="cordova-plugin-file"/>
   <gap:plugin name="cordova-plugin-file-transfer"/>
