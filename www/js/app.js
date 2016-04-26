@@ -19,7 +19,7 @@ angular.module('app', ['ionic','ngCordova', 'app.controllers', 'app.routes', 'ap
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }   
-
+/*
     if (window.ConnectSDK && window.ConnectSDK.discoveryManager) {
         var videoFilter = new ConnectSDK.CapabilityFilter([
            ConnectSDK.Capabilities.MediaPlayer.Play.Video, 
@@ -30,7 +30,7 @@ angular.module('app', ['ionic','ngCordova', 'app.controllers', 'app.routes', 'ap
 
         ConnectSDK.discoveryManager.startDiscovery();
     }
-      
+    
     document.addEventListener("resume", onResume, false);
     document.addEventListener("pause", onPause, false);
 
@@ -62,5 +62,7 @@ angular.module('app', ['ionic','ngCordova', 'app.controllers', 'app.routes', 'ap
         });
       })
     }
+*/
+    
   });
 })
