@@ -34,13 +34,6 @@
     <splash src="resources/splash.png" density="port-xxhdpi"/>
     <splash src="resources/splash.png" density="port-xxxhdpi"/>
   </platform>
-  <gap:plugin name="cordova-plugin-mfilechooser"/>
-  <gap:plugin name="cordova-plugin-device"/>
-  <gap:plugin name="cordova-plugin-file"/>
-  <gap:plugin name="cordova-plugin-file-transfer"/>
-  <gap:plugin name="cordova-plugin-console"/>
-  <gap:plugin name="cordova-plugin-splashscreen"/>
-  <gap:plugin name="cordova-plugin-inappbrowser"/>
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
     <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
@@ -69,4 +62,11 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
+  <gap:plugin name="cordova-plugin-armsoft-mfilechooser-nancydrew"/>
+  <gap:plugin name="cordova-plugin-device"/>
+  <gap:plugin name="cordova-plugin-file"/>
+  <gap:plugin name="cordova-plugin-file-transfer"/>
+  <gap:plugin name="cordova-plugin-console"/>
+  <gap:plugin name="cordova-plugin-splashscreen"/>
+  <gap:plugin name="cordova-plugin-inappbrowser"/>
 </widget>
