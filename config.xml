@@ -62,7 +62,6 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-  <gap:plugin name="cordova-plugin-armsoft-mfilechooser-nancydrew"/>
   <gap:plugin name="cordova-plugin-device"/>
   <gap:plugin name="cordova-plugin-file"/>
   <gap:plugin name="cordova-plugin-file-transfer"/>
